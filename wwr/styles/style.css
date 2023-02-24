@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 
 #content { 
-    max-width: 1510px;
+    max-width: 1500px;
     
 }
 
@@ -59,10 +59,10 @@ main section {
 #background {
     height: 725px;
     background-color: #396E94;
-    width: 100.5%;
+    width: 110%;
     grid-column: 1/11;
     grid-row: 4/9;
-    padding-left: 140px;
+    padding-left: 140;
 }
 
 body {
@@ -123,9 +123,9 @@ nav a:hover {
 footer {
     background-color: #396E94;
     color: #000;
-    padding: 25px 50px;
+    padding: 25px 75px;
     margin-top: 200px;
-    width: 100.5%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
