@@ -45,7 +45,7 @@ nav a {
 
 #hero-msg h4 {
     text-align: center;
-    color: white;
+    color: #F5F5DC;
 }
 
 .button-box {
@@ -131,7 +131,7 @@ footer {
 .home-title {
     font-family: 'Rock Salt', 'Bradle Hand', sans-serif;
     font-size: 2em;
-    color: #ffffff;
+    color:  #F5F5DC;
     margin-top: 10px;
 }
 h4 {
