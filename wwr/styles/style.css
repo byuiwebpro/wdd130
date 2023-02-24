@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 
 #content { 
-    max-width: 1600px;
+    max-width: 1510px;
     
 }
 
@@ -62,6 +62,7 @@ main section {
     width: 100.5%;
     grid-column: 1/11;
     grid-row: 4/9;
+    padding-left: 140px;
 }
 
 body {
@@ -77,6 +78,7 @@ header {
     width: 110%;
     display: grid;
     grid-template-columns: 150px auto;
+    opacity: .9;
 }
 
 .home-grid {
@@ -113,7 +115,7 @@ nav a:hover {
     background-color: #7b919c;
     line-height: 1.5em;
     padding: 35px;
-    width: 100.5%;
+    width: 100.%;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #396E94;
@@ -203,7 +205,7 @@ main section img {
 .card-img {
     border: 10px solid #396E94;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #396E94
+    box-shadow: 5px 5px 10px #396E94;
 }
 .card-img:hover {
     opacity: .6;
