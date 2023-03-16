@@ -213,6 +213,114 @@ main section img {
 }
 
 
+  
+
+
+/*------------------------------------------------------------------------------------------*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+.blog-item {
+    display: grid;
+    grid-template-columns: 2/2;
+    grid-template-rows: auto;
+}
+
+.head {
+    text-align: start;
+    font-size: 24px;
+   
+}
+
+.head2 {
+    text-align: start;
+    font-size: 20px;
+}
+
+.para1 {
+   text-align: center;
+   font-size: 18px;
+
+}
+.para {
+   text-align: justify;
+   display: grid;
+   grid-column: ;
+   font-size: ;
+    
+}
+
+.incredible-card {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-column: 8/8;
+    grid-row: 2/2;
+}
+
+.incredible-img, .incredible_season {
+    border: 10px solid #7b919c;
+    width: 100;
+}
+
+.incredible-img {
+    border: 10px solid #396E94;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #396E94;
+    grid-column: 10/10;
+    margin-top: -270px;
+}
+
+.parahead {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 1/10;
+    grid-row: 2/2;
+    grid-column: 1/10;
+    width: auto;
+    text-align:center;
+}
+
+.remote-card {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-column: 8/8;
+    grid-row: 2/2;
+}
+
+.remote-img, .remote_season {
+    border: 10px solid #7b919c;
+    width: 100;
+}
+
+.remote-img {
+    border: 10px solid #396E94;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #396E94;
+    grid-column: 10/10;
+    margin-top: -120px;
+}
+
+.bighorn-card {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-column: 1/1;
+    grid-row: 2/2;
+}
+
+.bighorn, .remote_season {
+    border: 10px solid #7b919c;
+    width: 100;
+}
+
+.bighorn {
+    border: 10px solid #396E94;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #396E94;
+    grid-column: 1/1;
+
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -254,4 +362,4 @@ main section img {
         margin-top: 25px;
     }
 }
-          
+        
