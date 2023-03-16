@@ -246,9 +246,9 @@ main section img {
 .para {
    text-align: justify;
    display: grid;
-   grid-column: ;
-   font-size: ;
-    
+   margin-left: 5px;
+   width: ;
+    z-index: -1;
 }
 
 .incredible-card {
@@ -268,7 +268,7 @@ main section img {
     transition: transform .5s;
     box-shadow: 5px 5px 10px #396E94;
     grid-column: 10/10;
-    margin-top: -270px;
+    margin-top: -300px;
 }
 
 .parahead {
@@ -298,7 +298,8 @@ main section img {
     transition: transform .5s;
     box-shadow: 5px 5px 10px #396E94;
     grid-column: 10/10;
-    margin-top: -120px;
+    margin-top: -370px;
+    z-index: 1px;
 }
 
 .bighorn-card {
