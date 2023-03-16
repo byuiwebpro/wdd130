@@ -230,12 +230,14 @@ main section img {
 .head {
     text-align: start;
     font-size: 24px;
+    margin-left: 5px;
    
 }
 
 .head2 {
     text-align: start;
     font-size: 20px;
+    margin-left: 5px;
 }
 
 .para1 {
@@ -251,24 +253,24 @@ main section img {
     z-index: -1;
 }
 
-.incredible-card {
+#incredible-card {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-column: 8/8;
     grid-row: 2/2;
 }
 
-.incredible-img, .incredible_season {
+#incredible-img, .incredible_season {
     border: 10px solid #7b919c;
     width: 100;
 }
 
-.incredible-img {
+#incredible-img {
     border: 10px solid #396E94;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #396E94;
     grid-column: 10/10;
-    margin-top: -300px;
+    margin-top: -250px;
 }
 
 .parahead {
@@ -279,42 +281,43 @@ main section img {
     grid-column: 1/10;
     width: auto;
     text-align:center;
+    font-size: 22px;
 }
 
-.remote-card {
+#remote-card {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-column: 8/8;
     grid-row: 2/2;
 }
 
-.remote-img, .remote_season {
+#remote-img, .remote_season {
     border: 10px solid #7b919c;
     width: 100;
 }
 
-.remote-img {
+#remote-img {
     border: 10px solid #396E94;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #396E94;
     grid-column: 10/10;
-    margin-top: -370px;
+    margin-top: -380px;
     z-index: 1px;
 }
 
-.bighorn-card {
+#bighorn-card {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-column: 1/1;
     grid-row: 2/2;
 }
 
-.bighorn, .remote_season {
+#bighorn, .remote_season {
     border: 10px solid #7b919c;
     width: 100;
 }
 
-.bighorn {
+#bighorn {
     border: 10px solid #396E94;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #396E94;
