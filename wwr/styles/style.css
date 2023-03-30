@@ -243,6 +243,7 @@ main section img {
 .para1 {
    text-align: center;
    font-size: 18px;
+   padding-left: -50px;
 
 }
 .para {
