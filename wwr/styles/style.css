@@ -243,14 +243,13 @@ main section img {
 .para1 {
    text-align: center;
    font-size: 18px;
-   padding-left: -50px;
 
 }
 .para {
    text-align: justify;
    display: grid;
    margin-left: 5px;
-   width: ;
+   width: 
     z-index: -1;
 }
 
