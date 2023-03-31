@@ -44,18 +44,27 @@ nav a {
     font-size: 1.5em;
     font-weight: bold;
 }
-
 #hero-msg h5 {
     text-align: center;
     color: #023047;
     padding-left: 150px;
 }
 
+#background {
+    height: 725px;
+    background-color: #396E94;
+    width: 110%;
+    grid-column: 1/11;
+    grid-row: 4/9;
+    
+}
+
 body {
     background-color: #219EBC;
-    font-family: Raleway, Arial, Helvetica, sans-serif;
+    font-family: Work Sans, Arial, Helvetica, sans-serif;
     font-size: 22px;
-    
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -91,7 +100,7 @@ footer {
     align-items: center;
 }
 .home-title {
-    font-family: 'Rock Salt', 'Bradle Hand', sans-serif;
+    font-family: 'Lato Regular 400', 'Bradle Hand', sans-serif;
     font-size: 2em;
     color:  #023047;
     margin-top: 10px;
@@ -131,17 +140,66 @@ footer.social img {
 
 
 /*----------------------------SERVICES--------------------------------------------------------*/
+.services-grid {
+    width: 100%;
+    margin-left: 100px;
 
+}
+
+.service-title {
+   text-align: center;
+}
+
+.services-para1 {
+    text-align: justify;
+    
+}
 
 #ordered-list {
     text-align: start;
     margin-left: 550px;
 }
 
+.services-para2 {
+    text-align: justify;
+    
+}
+
+.services-para3 {
+    
+    text-align: justify;
+    
+}
+
+.grid-display {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr;
+}
+
+.card-img1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 25px;
+}
+
+.services-para4 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.card-img1, .card-img2 {
+    
+}
+
+.services-para4 {
+    text-align: justify;
+    margin-left: 50px;
+   
+}
 
 
-
-/*-----------------------------------ABOUT US-------------------------------------------------*/
+/*--------------------------------ABOUT US-------------------------------------------------*/
 
 
 main section {
@@ -159,9 +217,6 @@ main section {
     color:  #023047; 
     margin-top: 10px;
 }
-
-
-
 
 
 @media screen and (max-width: 800px) {
@@ -189,18 +244,11 @@ main section {
         font-size: 25px;
         color: #000;
     }
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
-        width: 60%;
-    }
+    
     #background {
         display: none;
     }
-    .mountains, .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
+    
     footer {
         margin-top: 25px;
     }
