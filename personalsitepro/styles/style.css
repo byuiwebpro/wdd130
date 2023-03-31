@@ -212,11 +212,23 @@ main section {
     text-align: center;
 }
 
-#services-para {
+#services1-para {
     text-align: justify;
     margin-left: 100px;
 }
 
+#services2-para {
+    text-align: justify;
+    margin-left: 100px;
+}
+#services3-para {
+    text-align: justify;
+    margin-left: 100px;
+}
+#services4-para {
+    text-align: justify;
+    margin-left: 100px;
+}
 .aboutus-title {
     font-family: '', 'Bradle Hand', sans-serif;
     font-size: 1em;
