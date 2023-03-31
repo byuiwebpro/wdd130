@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Rock+Salt&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Work+Sans&display=swap');
 
 #content { 
     max-width: 1500px;
@@ -61,7 +61,7 @@ nav a {
 
 body {
     background-color: #219EBC;
-    font-family: 'Lato', sans-serif;
+    font-family:  'Roboto', sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -100,7 +100,7 @@ footer {
     align-items: center;
 }
 .home-title {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Lato Regular 400', 'Bradle Hand', sans-serif;
     font-size: 2em;
     color:  #023047;
     margin-top: 10px;
