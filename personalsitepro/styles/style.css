@@ -50,20 +50,12 @@ nav a {
     padding-left: 150px;
 }
 
-#background {
-    height: 725px;
-    background-color: #396E94;
-    width: 110%;
-    grid-column: 1/11;
-    grid-row: 4/9;
-    
-}
 
 body {
     background-color: #219EBC;
     font-family:  'Roboto', sans-serif;
     font-size: 22px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -90,11 +82,12 @@ nav a:hover {
 }
 
 footer {
+    align-self: 0 auto;
     background-color: #023047;
     color: #FFB703;
-    padding: 25px 75px;
-    margin-top: 200px;
-    width: 100%;
+    padding: 25px 100px 25px 100px;
+    margin-top: 50px;
+    width: 120%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -137,13 +130,15 @@ footer.social img {
     padding-top: 15px;
 }
 
-
+.social {
+    
+}
 
 /*----------------------------SERVICES--------------------------------------------------------*/
 .services-grid {
     width: 100%;
-    margin-left: 100px;
-    margin: 50px;
+    margin: 70px;
+
 
 }
 
@@ -172,19 +167,40 @@ footer.social img {
     
 }
 
+.servicegrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-rows: 1fr;
+
+}
+
+
 *{box-sizing: border-box}
 
 .slideshow-container {
-    display: grid;
-    grid-template-columns: 2fr;
-    grid-template-rows: 1fr;
+    grid-column: 1/2;
+    grid-row: 1/3;
     border: 10px solid #023047;
-    transition: transform .5s;
+    transition: transform .9s;
     box-shadow: 5px 5px 10px #023047;
     max-width: 565px;
     position: relative;
     margin: auto;
 }
+
+
+.prev {
+    position: absolute;
+    left: 0;
+}
+
+.next {
+    position: absolute;
+    right: 0;
+
+}
+
 
 /* Hide the images by default */
 .mySlides {
@@ -197,12 +213,11 @@ footer.social img {
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -22px;
     padding: 16px;
     color: #FB8500;
     font-weight: bold;
     font-size: 18px;
-    transition: 0.6s ease;
+    transition: 0.9s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
   }
@@ -211,6 +226,7 @@ footer.social img {
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
+
   }
   
   /* On hover, add a black background color with a little bit see-through */
@@ -251,6 +267,16 @@ footer.social img {
     transition: background-color 0.6s ease;
   }
 
+  .text-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.dot {
+    display: inline-block;
+}
   
   .active, .dot:hover {
     background-color: #023047;
@@ -270,9 +296,9 @@ footer.social img {
 .card-img1 .card-img2{
     grid-column: 1/2;
     grid-row: 1/2;
-    margin-top: 25px;
+    
     border: 10px solid #FB8500;
-    transition: transform .5s;
+   
     box-shadow: 5px 5px 10px #FB8500;
 }
 
@@ -288,9 +314,6 @@ footer.social img {
 .services-para4 {
     grid-column: 2/3;
     grid-row: 1/2;
-}
-
-.services-para4 {
     text-align: justify;
     margin-left: 50px;
 }
