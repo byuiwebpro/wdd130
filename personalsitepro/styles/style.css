@@ -82,7 +82,9 @@ nav a:hover {
 }
 
 footer {
-    align-self: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     background-color: #023047;
     color: #FFB703;
     padding: 25px 100px 25px 100px;
