@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Work+Sans&display=swap');
 
 #content { 
-    max-width: 1500px;
+    max-width: 1700px;
 }
 
 nav {
@@ -29,7 +29,7 @@ nav a {
 }
 
 #hero-img {
-    width: 111%
+    width: 100%
 }
 
 #hero-box {
@@ -59,43 +59,23 @@ body {
     padding: 0;
 }
 
+
 header {
     background-color: #023047;
-    width: 112%;
+    width: 100%;
     display: grid;
     grid-template-columns: 150px auto;
 }
 
 #home-para {
     text-align: justify;
-    margin: 50px;
+    margin: 25px;
 }
 
 .home-grid {
     display: grid;
 
 }
-
-header h1 {
-    margin-top: 0;
-}
-  
-  .about-section {
-    background-color: #f2f2f2;
-    padding: 50px 0;
-    height: auto; /* Set height to auto */
-}
-
-  .portfolio-list {
-    margin: 0; /* Remove default margin */
-    padding: 0;
-}
-
-.map-wrapper {
-    position: relative;
-    padding-bottom: 0; /* Set padding-bottom to 0 */
-    height: 0;
-  }
 
 nav a:hover {
     background-color: #FFB703;
@@ -110,7 +90,7 @@ footer {
     color: #FFB703;
     padding: 25px 100px 25px 100px;
     margin-top: 50px;
-    width: 120%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -153,16 +133,11 @@ footer.social img {
     padding-top: 15px;
 }
 
-.social {
-    
-}
 
 /*----------------------------SERVICES--------------------------------------------------------*/
 .services-grid {
     width: 100%;
-    margin: 70px;
-
-
+    
 }
 
 .service-title {
@@ -171,6 +146,8 @@ footer.social img {
 
 .services-para1 {
     text-align: justify;
+    margin-right: 50px;
+    margin-left: 50px;
     
 }
 
@@ -181,12 +158,15 @@ footer.social img {
 
 .services-para2 {
     text-align: justify;
+    margin-right: 50px;
+    margin-left: 50px;
     
 }
 
 .services-para3 {
-    
     text-align: justify;
+    margin-right: 50px;
+    margin-left: 50px;
     
 }
 
@@ -207,11 +187,16 @@ footer.social img {
     border: 10px solid #023047;
     transition: transform .9s;
     box-shadow: 5px 5px 10px #023047;
-    max-width: 565px;
+    max-width: 865px;
     position: relative;
-    margin: auto;
+    margin-right: 50px;
+    margin-left: 50px;
+    
 }
 
+.card-img1, .card-img2 {
+    height: 865px;
+}
 
 .prev {
     position: absolute;
@@ -236,13 +221,14 @@ footer.social img {
     position: absolute;
     top: 50%;
     width: auto;
-    padding: 16px;
+    padding: 0px;
     color: #FB8500;
     font-weight: bold;
     font-size: 18px;
     transition: 0.9s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    
   }
   
   /* Position the "next button" to the right */
@@ -338,7 +324,7 @@ footer.social img {
     grid-column: 2/3;
     grid-row: 1/2;
     text-align: justify;
-    margin-left: 50px;
+    margin-right: 50px;
 }
 
 
@@ -352,20 +338,20 @@ main section {
 
 #services1-para {
     text-align: justify;
-    margin-left: 100px;
+    margin: 20px;
 }
 
 #services2-para {
     text-align: justify;
-    margin-left: 100px;
+    margin: 20px;
 }
 #services3-para {
     text-align: justify;
-    margin-left: 100px;
+    margin: 20px;
 }
 #services4-para {
     text-align: justify;
-    margin-left: 100px;
+    margin: 20px;
 }
 .aboutus-title {
     font-family: '', 'Bradle Hand', sans-serif;
