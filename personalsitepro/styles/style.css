@@ -2,6 +2,7 @@
 
 #content { 
     max-width: 1700px;
+    
 }
 
 nav {
@@ -187,7 +188,8 @@ footer.social img {
     border: 10px solid #023047;
     transition: transform .9s;
     box-shadow: 5px 5px 10px #023047;
-    max-width: 865px;
+    max-width: 655px;
+    max-height: 650px;
     position: relative;
     margin-right: 50px;
     margin-left: 50px;
@@ -195,7 +197,8 @@ footer.social img {
 }
 
 .card-img1, .card-img2 {
-    height: 865px;
+    height: 630px;
+    width: 635px;
 }
 
 .prev {
@@ -325,6 +328,7 @@ footer.social img {
     grid-row: 1/2;
     text-align: justify;
     margin-right: 50px;
+    
 }
 
 
